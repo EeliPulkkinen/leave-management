@@ -24,6 +24,11 @@ namespace leave_management.Repository
             return Save();
         }
 
+        public object Create(object leaveType)
+        {
+            throw new NotImplementedException();
+        }
+
         public bool Delete(LeaveType entity)
         {
             _db.LeaveTypes.Remove(entity);
